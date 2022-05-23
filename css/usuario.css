@@ -1,0 +1,21 @@
+  /*Contenido de página*/ 
+
+.contenedor .bienvenida{
+    padding: 5px 3px 5px 3px;
+    width: 25%;
+    align-items: center; 
+    text-align: center;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-right: auto;
+    color: white;
+    font-weight: bold;
+    font-family: "Gidole";
+    background: #353a40;
+    border-radius: 1em;
+}
+
+.bienvenida h1{
+  font-size: 5vmin;
+}
+

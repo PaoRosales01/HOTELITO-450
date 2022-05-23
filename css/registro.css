@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/hotel.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    height: 142vh;
+}
+
+@font-face{
+    font-family: "Lemon_Milk";
+    src: url('../fonts/LEMONMILK-Regular.otf');
+}
+
+.cuadrologin {
+    width: 400px;
+    height: 800px;
+    background: linear-gradient(90deg, #5e6f98, #c6cddb) ;
+    color: black;
+    top: 73%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 20px;
+    border-radius: 20px;
+}
+
+.cuadrologin span{
+    color:red; 
+}
+
+.cuadrologin .logotipo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 10px;
+}
+
+.cuadrologin h1 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+    font-family: "Lemon_Milk";
+    font-weight: bold;
+}
+
+.cuadrologin h2 {
+    margin: 0;
+    padding: 0px;
+    font-size: 30px;
+    color: white;
+    text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+}
+
+.cuadrologin h4 {
+    margin: 0;
+    padding: 0px;
+    font-size: 15px;
+    color:white;
+    text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+}
+
+.cuadrologin label {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    display: block;
+    color: white;
+    text-shadow: -3px -3px 3px black, 3px -3px 3px black, -3px 3px 3px black, 3px 3px 3px black;
+
+}
+
+.cuadrologin input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder{ 
+     color: white; 
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-style: italic;
+    }
+
+.cuadrologin input[type="text"],
+.cuadrologin input[type="tel"],
+.cuadrologin input[type="password"] {
+    border: none;
+    border-bottom: 1px solid black  ;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.cuadrologin input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: linear-gradient(90deg,#263d73, #7c84ac);
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.cuadrologin input[type="submit"]:hover{
+    cursor: pointer;
+    color: #041c50;
+}
+
+.cuadrologin input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: linear-gradient(90deg,#263d73, #7c84ac);
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.cuadrologin input[type="date"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: linear-gradient(90deg,#263d73, #7c84ac);
+    font-size: 20px;
+    color: white;
+}
+
+.cuadrologin a {
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+    color: #041c50;
+    font-weight: bold;
+}
+
+.cuadrologin a:hover {
+    color: white;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 800px){
+    .cuadrologin{
+        margin: auto;
+        width: 90%;
+    }
+}
